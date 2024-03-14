@@ -20,3 +20,4 @@ phases:
       - echo "updating lambda function via s3..."
       - aws lambda update-function-code --function-name github-to-lambda-cicd --s3-bucket lambda-builds-zip --s3-key deployment_package.zip
       - echo "Deployment complete!!"
+      - echo "updated!"
